@@ -135,35 +135,32 @@ body{
     align-items: flex-start ;
     text-align: justify ;
     margin: auto ;
-    padding: 20px ;
     gap: 5% ;
     color: aliceblue ;  
     border-radius: 8px ;
     box-shadow: 0 2px 10px #eb1224 ;
-    font-family: 'Roughnut', Arial, Helvetica, sans-serif; 
+    font-family: Arial, Helvetica, sans-serif ; 
     font-size: 30px;
+    padding: 20px ;
 }
 
 #h3{
-    font-size: 30px ;
+    font-size: 35px ;
+    font-family: 'Roughnut', Arial, Helvetica, sans-serif ;
     color: rgb(255, 98, 0) ;
     letter-spacing: 5px ;
 }
 
 #p4{
-    flex: 3 ;                  
-    text-align: justify ;
-    color: aliceblue ;
-    font-family: Arial, Helvetica, sans-serif ;
-    font-size: 20px ; 
+    flex: 3 ;           
 }
 
 .enlaces{
     flex: 1 ;             
     list-style: none ;         
-    padding: 0 ;
     font-family: Arial, Helvetica, sans-serif ; 
     font-size: 20px ;
+    padding: 20px ;
 }
 
 .enlaces li{
