@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset="UTF-8"> 
+        <title> Ejercicio JavaScript </title>
+        <style>
+            #título {
+                color: black; 
+            }
+        </style> 
+        </head> 
+        <body> 
+            <h1 id="título"> Hidradenitis Supurativa </h1> 
+            <button id="cambiarTexto"> Sin cicatriz fibrótica </button> 
+            <button id="cambiarColor"> Canales sinusales </button>
+
+                <script> 
+                let titulo= document.getElementById ('título'); 
+                document.getElementById('cambiarTexto').addEventListener ('click' , function (){ titulo.textContent = ('Purulencia')
+                }) 
+
+                document.getElementById('cambiarColor').addEventListener ('click', function(){ titulo.style.color = ('purple') } )
+
+                </script> 
+            
+            
+            </body>
