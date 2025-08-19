@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+    
+        <meta charset="UTF-8">
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <title>Culturalia</title>
+    
+        <link rel="stylesheet" href="style.css">
+
+<!--Nota de Isabella: Leaflet (JS Librería)-Mapas | actualizado el 19 de agosto-->  
+    
+        <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+    
+        <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    </head>
+
+<body>
+    
+    <header>
+        
+        <h1>Bienes de Interés Cultural y lugares emblemáticos de Bucaramanga... Una prospección a futuro</h1>
+    
+    </header>
+
+    <main>
+
+        <div id="mapas"></div>
+
+        <aside id="barra_lateral">
+
+            <h2 id="h2">¡Encuentra la mejor ubicación disponible! Mientras preservamos nuestro patrimonio</h2>
+
+            <label><input type="checkbox" id="BIC_capas" checked> Bienes de Interés Cultural</label><br>
+
+            <label><input type="checkbox" id="Disponibles_capas" checked> Zonas aptas para desarrollo</label>
+            
+            <div id="caja_de_información">
+
+                <h3>Detalles</h3>
+
+                <p>Haz click en un punto o zona del mapa para ver más información</p>
+
+            </div>
+
+            <div id="información">
+
+                <h3 id="h3">¿Qué es un BIC?</h3>
+                
+                <p id="ph3">
+                    Los <strong>Bienes de Interés Cultural (BIC)</strong> son edificaciones, monumentos, esculturas,
+                    zonas y espacios que poseen un valor histórico, arquitectónico, artístico o simbólico 
+                    para la identidad de Bucaramanga.
+                </p>
+
+                <h3>Patrimonio Cultural</h3>
+                
+                <p>
+                    El patrimonio cultural refleja la memoria y tradiciones de la comunidad, transmitidas 
+                    a través de inmuebles, costumbres, obras artísticas y expresiones colectivas.
+                </p>
+
+                <h3>Normas Básicas</h3>
+                
+                <ul>
+                    
+                    <li>No pueden ser demolidos ni reemplazados.</li>
+                    <li>Solo pueden ser intervenidos con autorización oficial.</li>
+                    <li>Las nuevas construcciones deben respetar su entorno inmediato.</li>
+                    <li>El turismo debe garantizar la conservación de estos bienes.</li>
+                
+                </ul>
+            
+            </div>
+        
+        </aside>
+    
+    </main>
+    
+    <footer>
+
+        <p>Turismo y Patrimonio Cultural</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
